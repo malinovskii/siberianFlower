@@ -9,23 +9,23 @@
       </div>
     <?php endif?>
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingInput" placeholder="Username" name="username">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Username" name="username" required>
       <label for="floatingInput">Имя пользователя</label>
     </div>
     <div class="form-floating mt-3">
-      <input type="email" class="form-control" id="floatingPassword" placeholder="Email" name="email">
+      <input type="email" class="form-control" id="floatingPassword" placeholder="Email" name="email" required>
       <label for="floatingPassword">Электронная почта</label>
     </div>
     <div class="form-floating mt-3">
-      <input type="text" class="form-control" id="floatingPassword" placeholder="Login" name="login">
+      <input type="text" class="form-control" id="floatingPassword" placeholder="Login" name="login" required>
       <label for="floatingPassword">Логин</label>
     </div>
     <div class="form-floating mt-3">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" required>
       <label for="floatingPassword">Пароль</label>
     </div>
     <div class="form-floating mt-3">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Con-Password" name="con-password">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Con-Password" name="con-password" required>
       <label for="floatingPassword">Повторите пароль</label>
     </div>
     <small>Уже зарегистрированы? <a href="register.php">Войдите в аккаунт</a></small>

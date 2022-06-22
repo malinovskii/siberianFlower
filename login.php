@@ -9,11 +9,11 @@
       </div>
     <?php endif?>
     <div class="form-floating">
-      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="login">
+      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="login" required>
       <label for="floatingInput">Логин</label>
     </div>
     <div class="form-floating mt-3">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" required>
       <label for="floatingPassword">Пароль</label>
     </div>
     <small>Еще нет аккаунта? <a href="register.php">Зарегистрируйтесь</a></small>
