@@ -28,8 +28,8 @@
       <input type="password" class="form-control" id="floatingPassword" placeholder="Con-Password" name="con-password">
       <label for="floatingPassword">Повторите пароль</label>
     </div>
-
-    <button class="w-100 mt-3 btn btn-lg btn-primary" type="submit">Войти</button>
+    <small>Уже зарегистрированы? <a href="register.php">Войдите в аккаунт</a></small>
+    <button class="w-100 mt-3 btn btn-lg btn-primary" type="submit">Создать аккаунт</button>
   </form>
 </main>
 <?php require "components/footer.php"?>

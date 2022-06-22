@@ -16,7 +16,7 @@
       <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
       <label for="floatingPassword">Пароль</label>
     </div>
-
+    <small>Еще нет аккаунта? <a href="register.php">Зарегистрируйтесь</a></small>
     <button class="w-100 mt-3 btn btn-lg btn-primary" type="submit">Войти</button>
   </form>
 </main>
